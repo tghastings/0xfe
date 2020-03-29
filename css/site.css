@@ -1,0 +1,186 @@
+body {
+  padding-top: 5rem;
+  color:#f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  font-size:12.5px;
+  background-color: #050c26;
+  background-image: linear-gradient(#071033 .04em, transparent .04em), linear-gradient(90deg, #071033 .04em, transparent .04em);
+  background-size: 3em 3em;
+}
+a {
+  color:#fff;
+}
+ul li a {
+  display:block;
+ }
+ul li a:hover{
+  color:#fff;
+  background-color:#1e67d0;
+  text-decoration: none;
+}
+.navbar {
+  background-color: #050c26 !important;
+  color: #fefefe !important;
+  border-bottom: 1px solid #1e67d0;
+  border-top: 1px solid #1e67d0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: linear-gradient(to bottom, rgba(8,55,143), rgba(255,0,0,0));
+  background-size: 100% 10px;
+  background-color: white;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(30, 103, 208, 0.2), 0 6px 20px 0 rgba(30, 103, 208, 0.2);
+}
+.navbar-brand {
+  color: #fefefe !important;
+}
+.navbar a{
+  color: #fefefe !important;
+}
+.navbar .disabled{
+  color: #999 !important;
+  background-color: #050c26 !important;
+}
+.navbar .dropdown-menu {
+  background-color:#050c26;
+  border-left: 1px solid #1e67d0;
+  border-bottom: 1px solid #1e67d0;
+  border-right: 1px solid #1e67d0;
+  font-size:12.5px 
+}
+.navbar a:hover {
+  background-color: #1e67d0;
+  color: #fff;
+}
+.navbar-brand img {
+  width:100px
+} 
+main {
+  background-color:#050c26;;
+  padding:2px;
+  margin-bottom:12px;
+  border-radius: 10px;
+  border:1px solid #1e67d0;
+  box-shadow: 0 4px 8px 0 rgba(30, 103, 208, 0.5), 0 6px 20px 0 rgba(30, 103, 208, 0.5);
+}
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:360px;
+}
+.logo h1 {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+h2 {
+  letter-spacing: -2px;
+  border-bottom: 1px solid #1e67d0;
+  margin-top:5px;
+}
+.inside-border{
+  border: 1px solid #1e67d0;
+  margin:5px;
+  padding-bottom:20px;
+  background-size: 100% 15px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-image: linear-gradient(to top, rgba(8,55,143), rgba(255,0,0,0));
+}
+.inside-border table {
+  width:100%
+}
+.inside-border-header{
+  border: 1px solid #1e67d0;
+  /* margin: 5px; */
+  padding: 0;
+  padding-right: 5px;
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-image: linear-gradient(to top, rgba(8,55,143), rgba(255,0,0,0));
+  margin-bottom:5px;
+}
+.inside-border-header h3{
+  margin:0;
+  padding: 2px;
+  font-size:16px;
+  padding-bottom:5px;
+}
+.inside-border h2{
+  padding:0;
+  padding-top:2px;
+  margin:0;
+  letter-spacing: 0px;
+  display:block;
+  float:left;
+  width: 100% ;
+  text-align: center;
+  border:0;
+  color:#fff;
+  font-size:14px;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(8,55,143));
+}
+.inside-border table {
+  width: 100%;
+}
+.inside-border ul{
+  width:100%;
+  padding:0;
+  margin:0;
+  text-align: center;
+  list-style: none;
+}
+article {
+  margin-bottom:5px
+}
+article footer {
+  text-align: right;
+}
+.logo {
+  margin:5px;
+  text-align: center;
+  color:#fefefe;
+  /* border-radius: 10px 10px 0px 0; */
+  background-image: url("../images/guy.jpg");
+  background-position: bottom;
+  border: 1px solid #1e67d0;
+}
+.spacing {
+  letter-spacing: -24px;
+}
+.right {
+  text-align: right;
+}
+.games img{
+  width: 100%
+}
+.team {
+  text-align: center;
+  color: #fff;
+  width: 98%;
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.sponsors {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer p {
+  display:block;
+  float:left;
+  width: 100%; 
+  text-align: center;
+}
