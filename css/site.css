@@ -149,7 +149,7 @@ article footer {
   color:#fefefe;
   /* border-radius: 10px 10px 0px 0; */
   background-image: url("../images/guy.jpg");
-  background-position: bottom;
+  background-position: center;
   border: 1px solid #1e67d0;
 }
 .spacing {
